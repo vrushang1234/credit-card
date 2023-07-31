@@ -9,7 +9,7 @@ export default function App(){
     }
     let number_arr=[".",".",".",". ",".",".",".",". ",".",".",".",". ",".",".",".","."]
     function inputchanged(event){
-        document.getElementById("card").style.backgroundColor=" rgb(0, 140, 255)";
+        document.getElementById("card").style.background=" linear-gradient(rgb(255, 179, 16),rgb(255, 0, 0))";
         let {name, value}= event.target;
         console.log(value.split("-"))
         setinput((prevvalue)=>{
